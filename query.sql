@@ -1,7 +1,7 @@
 Questão 1- -------------------------------------------------------------------------------------
 
 SELECT block_number, count (distinct address) FROM `bigquery-public-data.crypto_ethereum.tokens` 
-group by block_number
+group by block_number;
 
 Questão 2 - ------------------------------------------------------------------------------------
 
